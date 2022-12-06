@@ -1,6 +1,11 @@
 /* general*/
 
 
+/* Nota: Acá se encuentra todo el código hecho anteriormente en css.
+   Para aplicar lo aprendido en la clase lo que hice fue separar algunas partes de código en partials,
+   retirando de acá lo que correspondía al nav y al footer. Y aplicar algunas variables
+   No se utilizaron Nestings ya que en la consigna son optativos*/
+
 body{
     color: antiquewhite;
     background-color: black;
@@ -19,13 +24,7 @@ body{
 }
 
 
-.logo__header{
-  position:absolute;
-    margin:0px 15px 15px 10px;
-    left: 0;
-    display:inline;
- 
-}
+
 
 #imagen__messi__main{
   display: flex;
@@ -77,10 +76,7 @@ li {
     margin-bottom:200px ;
   }
 
-  .footer{
-    grid-area: footer;
-    background-color: gray;
-  }
+  
   
 
   .tabla__players__stats{
@@ -92,9 +88,7 @@ li {
     justify-content: center;
   }
 
-.instagram__logo,.facebook__logo,.youtube__logo {
-  margin-right: 20px;
-}
+
 
 .img__contacto{
   display: flex;
@@ -107,9 +101,6 @@ li {
           position: relative;
          }
 
-.navbar-light .navbar-nav .nav-link{
-  color: aliceblue;
-}
 
 /* Desktop (animación) */
 
@@ -202,11 +193,7 @@ body{
       align-items: center;
   }
 
-  .footer{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+  
 
 /* TABLET */
   @media screen and (min-width:769px) and (max-width:1023px) {

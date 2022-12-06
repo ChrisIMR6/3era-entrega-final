@@ -1,0 +1,15 @@
+.footer{
+    grid-area: footer;
+    background-color:$gris;
+  }
+
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram__logo,.facebook__logo,.youtube__logo {
+    margin-right: 20px;
+  }
