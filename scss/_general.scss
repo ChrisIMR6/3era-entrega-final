@@ -1,3 +1,6 @@
+/* general*/
+
+
 body{
     color: antiquewhite;
     background-color: black;
@@ -104,6 +107,10 @@ li {
           position: relative;
          }
 
+.navbar-light .navbar-nav .nav-link{
+  color: aliceblue;
+}
+
 /* Desktop (animación) */
 
 .main__parrafo{background-image: radial-gradient(blue, white, red, yellow)}
@@ -137,37 +144,7 @@ li {
     opacity: 1;
   }
 }
-.logo__animado{
-  animation: animacion_main 1s ease 0s infinite normal forwards;
-}
 
-@keyframes animacion_main {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
-
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
-
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
-
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
-
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
-
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
-}
 
 }
 
@@ -216,12 +193,6 @@ body{
             flex-direction: column;
             align-items: center;
         }
-
-        .tabla__players__stats{
-          overflow: scroll;                   
-        }
-
-        
 
     }                                 /* Fin MOBILE */
   
@@ -289,11 +260,10 @@ body{
         .tabla__players__stats{
           overflow: scroll;                   
         }
-  } /* FIN TABLET */                 
-  
+  } /* FIN TABLET */                                
 
-  /* ANIMACIONES GENERALES */
-  .logo__animado{
+   /* ANIMACIONES GENERALES */
+   .logo__animado{
     animation: animacion_main 1s ease 0s infinite normal forwards;
   }
   
