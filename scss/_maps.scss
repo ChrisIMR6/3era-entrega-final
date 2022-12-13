@@ -1,0 +1,12 @@
+$main-colors:(
+	color-primario:blue,
+	color-secundario:brown,
+	color-black:black,
+	color-white:white
+);
+
+body{
+    color: map-get($main-colors,color-white);
+
+    background-color: map-get($main-colors,color-black);
+}

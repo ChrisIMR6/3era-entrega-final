@@ -1,0 +1,17 @@
+li {
+    display: inline-block;
+    height: 100%;
+  }
+
+
+  li a {
+    @extend li;
+    color: white;
+    background:none;
+    line-height: 100px;          
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    margin: 0;
+    } 

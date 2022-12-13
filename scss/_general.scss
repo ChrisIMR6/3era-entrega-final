@@ -1,15 +1,9 @@
 /* general*/
 
 
-/* Nota: Acá se encuentra todo el código hecho anteriormente en css.
-   Para aplicar lo aprendido en la clase lo que hice fue separar algunas partes de código en partials,
-   retirando de acá lo que correspondía al nav y al footer. Y aplicar algunas variables
-   No se utilizaron Nestings ya que en la consigna son optativos*/
+   
 
-body{
-    color: antiquewhite;
-    background-color: black;
-}
+
 
 .main__container{
   display: grid;
@@ -26,26 +20,6 @@ body{
 
 
 
-#imagen__messi__main{
-  display: flex;
-      flex-direction: column;
-      align-items: center;
-    margin: 20px;
-    height: auto;
-    width: 60%;
-    float: left; 
-    grid-area:img_main;
-   }
-.main__parrafo{
-  display: flex;
-      flex-direction: column;
-      align-items: center;
-text-align:center;
-font-size: 60px;
-overflow: hidden;
-grid-area: parrafo_main;
-}
-
   ul {
   left: 0;
   top: 50%;
@@ -54,21 +28,6 @@ grid-area: parrafo_main;
   background:none;
   min-height: 100px;       
 }
-li {
-  display: inline-block;
-  height: 100%;
-}
- li a {
-  display: inline-block;
-  color: white;
-  background:none;
-  line-height: 100px;          
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-  margin: 0;
-  height: 100%;} 
 
   .tabla__messi{
     align-content: center;
@@ -78,16 +37,6 @@ li {
 
   
   
-
-  .tabla__players__stats{
-    display: flex;
-    justify-content: center;
-  }
-  .tabla__stats{
-    display: flex;
-    justify-content: center;
-  }
-
 
 
 .img__contacto{
@@ -346,3 +295,5 @@ body{
 		transform: scale3d(1, 1, 1);
 	}
 }
+
+
