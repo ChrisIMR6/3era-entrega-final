@@ -1,5 +1,4 @@
 .footer{
-    grid-area: footer;
     background-color:$gris;
   }
 
@@ -13,3 +12,10 @@
 .instagram__logo,.facebook__logo,.youtube__logo {
     margin-right: 20px;
   }
+
+  .redes__sociales__footer{
+    display: flex;
+    align-content: flex-end;
+  }
+
+  
