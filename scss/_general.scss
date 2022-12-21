@@ -1,7 +1,15 @@
 /* general*/
 
-
-   
+.titulo_selecciones{
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+}
+  .titulo_top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
 
 
 .main__container{
@@ -50,42 +58,10 @@
          }
 
 
-/* Desktop (animación) */
+
 
 .main__parrafo{background-image: radial-gradient(white,black,white)}
-@media screen and (min-width:1024px) {
-  .parrafo-animado-main {
-    -webkit-animation: parrafo-animado 2s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-            animation: parrafo-animado 2s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-  }
- 
-@-webkit-keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-
-}
 
 /* MOBILE */
 @media screen and (max-width:768px){
@@ -181,63 +157,9 @@ body{
     animation: animacion_main 1s ease 0s infinite normal forwards;
   }
   
-  @keyframes animacion_main {
-    0%,
-    100% {
-      transform: translateX(0%);
-      transform-origin: 50% 50%;
-    }
   
-    15% {
-      transform: translateX(-30px) rotate(-6deg);
-    }
-  
-    30% {
-      transform: translateX(15px) rotate(6deg);
-    }
-  
-    45% {
-      transform: translateX(-15px) rotate(-3.6deg);
-    }
-  
-    60% {
-      transform: translateX(9px) rotate(2.4deg);
-    }
-  
-    75% {
-      transform: translateX(-6px) rotate(-1.2deg);
-    }
-  }
 
-  .parrafo-animado-main {
-    -webkit-animation: parrafo-animado 2s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-            animation: parrafo-animado 2s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-  }
  
-@-webkit-keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .redes__sociales__footer{
   animation: logos_redes 1s ease 0s infinite normal forwards;

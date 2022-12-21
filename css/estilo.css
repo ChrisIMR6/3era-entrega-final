@@ -1,5 +1,14 @@
-@charset "UTF-8";
 /* general*/
+.titulo_selecciones {
+  display: flex;
+  justify-content: center;
+  color: aquamarine; }
+
+.titulo_top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%; }
+
 .main__container {
   display: grid;
   grid-template-areas: "img_main parrafo_main";
@@ -32,30 +41,8 @@ ul {
   float: left;
   position: relative; }
 
-/* Desktop (animación) */
 .main__parrafo {
   background-image: radial-gradient(white, black, white); }
-
-@media screen and (min-width: 1024px) {
-  .parrafo-animado-main {
-    -webkit-animation: parrafo-animado 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
-    animation: parrafo-animado 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both; }
-  @-webkit-keyframes parrafo-animado {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0; }
-    40% {
-      opacity: 0.6; }
-    100% {
-      opacity: 1; } }
-  @keyframes parrafo-animado {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0; }
-    40% {
-      opacity: 0.6; }
-    100% {
-      opacity: 1; } } }
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
@@ -126,44 +113,6 @@ ul {
 .logo__animado {
   animation: animacion_main 1s ease 0s infinite normal forwards; }
 
-@keyframes animacion_main {
-  0%,
-  100% {
-    transform: translateX(0%);
-    transform-origin: 50% 50%; }
-  15% {
-    transform: translateX(-30px) rotate(-6deg); }
-  30% {
-    transform: translateX(15px) rotate(6deg); }
-  45% {
-    transform: translateX(-15px) rotate(-3.6deg); }
-  60% {
-    transform: translateX(9px) rotate(2.4deg); }
-  75% {
-    transform: translateX(-6px) rotate(-1.2deg); } }
-
-.parrafo-animado-main {
-  -webkit-animation: parrafo-animado 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
-  animation: parrafo-animado 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both; }
-
-@-webkit-keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    opacity: 1; } }
-
-@keyframes parrafo-animado {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    opacity: 1; } }
-
 .redes__sociales__footer {
   animation: logos_redes 1s ease 0s infinite normal forwards; }
 
@@ -207,7 +156,7 @@ ul {
   padding: 7px; }
 
 .footer {
-  background-color: gray; }
+  background-color: #202A44; }
 
 .footer {
   display: flex;
@@ -220,6 +169,9 @@ ul {
 .redes__sociales__footer {
   display: flex;
   align-content: flex-end; }
+
+.links__footer {
+  list-style: none; }
 
 #imagen__messi__main {
   display: flex;
@@ -254,3 +206,28 @@ ul {
 body {
   color: white;
   background-color: black; }
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  color: black; }
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  color: black; }
+
+.card-subtitle {
+  display: flex;
+  justify-content: center; }
+
+.valores_mercado_body {
+  background-color: #d45252; }
+
+.titulo_arg {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik Mono One', sans-serif; }
+
+.body_contacto {
+  background-color: #1e1414; }
