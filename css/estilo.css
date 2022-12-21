@@ -1,4 +1,7 @@
 /* general*/
+.carousel-control-next {
+  filter: invert(100%); }
+
 .titulo_selecciones {
   display: flex;
   justify-content: center;
