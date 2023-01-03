@@ -15,6 +15,8 @@ ________________________________________________________________________________
 
 Criterio 3 Diseño y estética: Que el sitio contenga efectos de interacción y/o animaciones.
 
+.Las navsbars de las todas las páginas tienen un efecto hover sobre los links
+
 .Los logos de redes sociales de todos los footers son animados
 
 .La página "valores de mercado" tiene un efecto AOS al entrar (desktop y mobile) y también al scrollear(sólo en resoluciones donde los items se ordenen uno debajo del otro)
@@ -22,6 +24,8 @@ Criterio 3 Diseño y estética: Que el sitio contenga efectos de interacción y/
 . La página "Biografías" Tiene un linear gradient como background para mejorar la estética y botones para leer más sobre las biografías
 
 .Las páginas "Index" y "Resultados" contienen carousels hechos con boostrap
+
+.Se utilizaron cards de bootstrap en "valores de mercado" y cards hechas con flexbox en "biografías"
 _______________________________________________________________________________________________________________________
 El resto de criterios no necesitan guía.
 
