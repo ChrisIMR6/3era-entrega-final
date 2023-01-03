@@ -1,4 +1,7 @@
 PDF "Wireframe final" contiene los mockups hechos en balsamiq
+
+Aclaro que la página "Biografías" no contiene ningún tipo de optimización SEO porque es una página que no iría,
+es decir, la cree solamente para mostrar el uso de GRIDS. Tampoco tiene scripts linkeados.
 ___________________________________________________________________________________________________________
 
 Criterio 1 Diseño responsive: grids + flexbox + box modeling
